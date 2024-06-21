@@ -33,6 +33,7 @@ enum TabbarPage {
             return UIImage(systemName: "person.fill") ?? UIImage()
         }
     }
+    //
     static let allTabbarPages: [TabbarPage] = [.main, .basket, .profile]
     static let firstTabbarPage: TabbarPage = .main
     
